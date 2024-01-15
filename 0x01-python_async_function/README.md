@@ -50,7 +50,6 @@ Tasks
 
 ### 0\. The basics of async
 
-mandatory
 
 Write an asynchronous coroutine that takes in an integer argument (`max_delay`, with a default value of 10) named `wait_random` that waits for a random delay between 0 and `max_delay` (included and float value) seconds and eventually returns it.
 
@@ -77,8 +76,6 @@ bob@dylan:~$ ./0-main.py
 
 
 ### 1\. Let's execute multiple coroutines at the same time with async
-
-mandatory
 
 Import `wait_random` from the previous python file that you've written and write an async routine called `wait_n` that takes in 2 int arguments (in this order): `n` and `max_delay`. You will spawn `wait_random` `n` times with the specified `max_delay`.
 
@@ -108,12 +105,8 @@ bob@dylan:~$ ./1-main.py
 The output for your answers might look a little different and that's okay.
 
 
-
- Done? Help Check your code Get a sandbox
-
 ### 2\. Measure the runtime
 
-mandatory
 
 From the previous file, import `wait_n` into `2-measure_runtime.py`.
 
@@ -142,7 +135,6 @@ bob@dylan:~$ ./2-main.py
 
 ### 3\. Tasks
 
-mandatory
 
 Import `wait_random` from `0-basic_async_syntax`.
 
@@ -172,7 +164,6 @@ bob@dylan:~$ ./3-main.py
 
 ### 4\. Tasks
 
-mandatory
 
 Take the code from `wait_n` and alter it into a new function `task_wait_n`. The code is nearly identical to `wait_n` except `task_wait_random` is being called.
 
@@ -192,10 +183,4 @@ bob@dylan:~$ ./4-main.py
 [0.2261658205652346, 1.1942770588220557, 1.8410422186086628, 2.1457353803430523, 4.002505454641153]
 
 ```
-
-**Repo:**
-
-- GitHub repository: `alx-backend-python`
-- Directory: `0x01-python_async_function`
-- File: `4-tasks.py`
 
