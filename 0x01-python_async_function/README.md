@@ -75,13 +75,6 @@ bob@dylan:~$ ./0-main.py
 
 ```
 
-**Repo:**
-
-- GitHub repository: `alx-backend-python`
-- Directory: `0x01-python_async_function`
-- File: `0-basic_async_syntax.py`
-
- Done? Help Check your code Get a sandbox
 
 ### 1\. Let's execute multiple coroutines at the same time with async
 
@@ -114,11 +107,7 @@ bob@dylan:~$ ./1-main.py
 
 The output for your answers might look a little different and that's okay.
 
-**Repo:**
 
-- GitHub repository: `alx-backend-python`
-- Directory: `0x01-python_async_function`
-- File: `1-concurrent_coroutines.py`
 
  Done? Help Check your code Get a sandbox
 
@@ -148,11 +137,6 @@ bob@dylan:~$ ./2-main.py
 
 ```
 
-**Repo:**
-
-- GitHub repository: `alx-backend-python`
-- Directory: `0x01-python_async_function`
-- File: `2-measure_runtime.py`
 
  Done? Help Check your code Get a sandbox
 
@@ -184,13 +168,7 @@ bob@dylan:~$ ./3-main.py
 
 ```
 
-**Repo:**
 
-- GitHub repository: `alx-backend-python`
-- Directory: `0x01-python_async_function`
-- File: `3-tasks.py`
-
- Done? Help Check your code Get a sandbox
 
 ### 4\. Tasks
 
